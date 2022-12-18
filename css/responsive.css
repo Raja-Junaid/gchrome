@@ -1,0 +1,200 @@
+/*--------------- For Tablets -----------------*/
+@media (max-width: 1000px) {
+  .header {
+    padding: 1rem 1.3rem 1rem 1.3rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-icon {
+    display: inherit;
+  }
+
+  .hero-title {
+    font-size: 3.4rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .alignment {
+    margin-top: -5rem;
+  }
+
+  .alignment-2 {
+    margin-bottom: -5rem;
+  }
+}
+
+/*--------- Medium Size Tablet ------------*/
+@media (max-width: 700px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-laptop {
+    height: 18rem;
+  }
+
+  .pattern-title {
+    font-size: 2rem;
+  }
+
+  .pattern-description {
+    font-size: 0.9rem;
+  }
+
+  .pattern-img {
+    height: 18rem;
+  }
+
+  .image-2 {
+    height: 18rem;
+  }
+
+  .image-4 {
+    height: 14rem;
+  }
+
+  .data-2 {
+    padding-left: 0;
+  }
+
+  .pattern-data {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding-top: -4rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .check-con-1,
+  .check-con-2,
+  .hero-terms,
+  .hero-text {
+    display: none;
+  }
+
+  .link-con {
+    margin-top: 1.4rem;
+  }
+
+  .hero-laptop {
+    height: 14rem;
+  }
+
+  .subheading {
+    font-size: 0.8rem;
+  }
+
+  .pattern-title {
+    font-size: 1.8rem;
+  }
+
+  .pattern-description {
+    font-size: 0.8rem;
+  }
+
+  .pattern-img {
+    height: 16rem;
+  }
+
+  .res-align {
+    margin-left: 2rem;
+  }
+
+  .image-2 {
+    height: 16rem;
+  }
+
+  .image-4 {
+    height: 12rem;
+  }
+
+  .pattern-data {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*-------------- For Mobile -------------------*/
+
+@media (max-width: 400px) {
+  .hero-laptop {
+    height: 12rem;
+  }
+
+  .subheading {
+    font-size: 0.7rem;
+  }
+
+  .pattern-title {
+    font-size: 1.7rem;
+  }
+
+  .pattern-description {
+    font-size: 0.8rem;
+  }
+
+  .pattern-img {
+    height: 15rem;
+  }
+
+  .image-2 {
+    height: 15rem;
+  }
+
+  .image-4 {
+    height: 11rem;
+  }
+}
+
+/*-------------- For Small Mobile -------------------*/
+
+@media (max-width: 340px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-laptop {
+    height: 10rem;
+  }
+
+  .subheading {
+    font-size: 0.6rem;
+  }
+
+  .pattern-title {
+    font-size: 1.6rem;
+  }
+
+  .pattern-description {
+    font-size: 0.7rem;
+  }
+
+  .pattern-img {
+    height: 14rem;
+  }
+
+  .image-2 {
+    height: 14rem;
+  }
+
+  .image-4 {
+    height: 10rem;
+  }
+}

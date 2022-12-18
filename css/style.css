@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Google Sans", arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/*--------------------NAVBAR-------------------------*/
+
+.header {
+  display: flex;
+  align-items: center;
+  font-family: "Google Sans", arial, sans-serif;
+  padding: 1.2rem;
+  box-shadow: 0 5px 8px -7px rgba(50, 50, 50, 0.274);
+  z-index: 1;
+}
+
+.nav-icon {
+  width: 1.78rem;
+  height: 1.78rem;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  display: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 1.6rem;
+  margin-right: 4rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #5f6368;
+  margin-right: 1.6rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.nav-items::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  bottom: -1.4rem;
+  left: 0;
+  background-color: #1967d2;
+  transform: scaleX(0);
+}
+
+.first-item::before {
+  transform: scaleX(1.5);
+}
+
+.nav-items:hover,
+.first-item {
+  color: #202125;
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------HERO-------------------------*/
+
+.hero {
+  background: linear-gradient(
+    to right top,
+    #e8f0fe,
+    #f2f7fe,
+    #f3f7fe4c,
+    rgba(255, 255, 255, 0.042),
+    rgba(255, 255, 255, 0.048)
+  );
+}
+
+.hero-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.4rem;
+  font-family: "Google Sans", arial, sans-serif;
+}
+
+.hero-img {
+  height: 5rem;
+  margin-bottom: 1.4rem;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+
+.hero-button {
+  padding: 0.8rem 1.29rem;
+  margin-top: 1.4rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #1967d2;
+  color: #f9f7f9;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.hero-text {
+  letter-spacing: 0.2px;
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  color: #202125;
+}
+
+.link-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.2rem;
+}
+
+.hero-link {
+  color: #216fdb;
+  font-weight: 500;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.hero-arrow {
+  color: #216fdb;
+  cursor: pointer;
+}
+
+.check-con-1,
+.check-con-2 {
+  display: flex;
+  align-items: center;
+}
+
+.check-con-1 {
+  margin-left: -12rem;
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+
+.check-con-2 {
+  margin-left: -0.9rem;
+  margin-top: 1rem;
+}
+
+.check {
+  margin-right: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.check-text {
+  font-size: 0.68rem;
+  color: #202125;
+  font-weight: 400;
+}
+
+.learn-link {
+  color: #216fdb;
+  cursor: pointer;
+}
+
+.hero-terms {
+  font-size: 0.68rem;
+  color: #202125;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.terms {
+  color: #216fdb;
+  cursor: pointer;
+}
+
+.hero-laptop {
+  height: 27.5rem;
+  margin-top: 2.4rem;
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------Z-PATTERN-------------------------*/
+
+.pattern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 3.6rem;
+  row-gap: 8rem;
+  margin: 4rem 0;
+}
+
+.data-2 {
+  padding-left: 4rem;
+}
+
+.subheading {
+  margin-bottom: 0.6rem;
+  color: #202125;
+}
+
+.pattern-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  color: #202125;
+}
+
+.pattern-description {
+  line-height: 1.7rem;
+  margin-bottom: 1.4rem;
+  color: #414143;
+}
+
+.pattern-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pattern-text {
+  color: #216fdb;
+  font-weight: 500;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.pattern-arrow {
+  color: #216fdb;
+  cursor: pointer;
+}
+
+.pattern-img {
+  height: 26rem;
+}
+
+.image-2 {
+  height: 22rem;
+}
+
+.image-4 {
+  height: 18rem;
+}
+
+/*--------------------------------------------------*/
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
